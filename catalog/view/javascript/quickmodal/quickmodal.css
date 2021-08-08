@@ -1,0 +1,67 @@
+.quickmodal-mask {
+opacity:0;
+position:absolute;
+top:0;
+margin:100px 80px;
+}
+
+.product-layout .image:hover .quickmodal-mask {
+opacity:1;
+}
+
+.on-modal {
+overflow:visible;
+margin:0 auto;
+}
+
+.modal-dialog {
+width:80%;
+margin: auto;
+}
+
+.modal-body {
+overflow-y:auto;
+}
+
+#sync1 .owl-wrapper-outer,#sync2 .owl-wrapper-outer {
+border:0!important;
+box-shadow:none;
+border-radius:0;
+}
+
+#sync2 .owl-item {
+padding-right:7.5px;
+padding-left:7.5px;
+}
+
+#sync2 .synced .thumbnail {
+border:1px solid #23527c;
+}
+
+@media screen and (max-width: 992px) {
+.quickmodal-mask {
+opacity:1!important;
+position:relative;
+margin:0px !important;
+width:100%;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+.modal-dialog {
+width:90% !important;
+margin:0px auto;
+}
+
+.list-unstyled li {line-height : 30px;}
+
+.owl-carousel .owl-buttons div i {font-size:60px;}
+
+.owl-pagination {display:none;}
+
+.modal-header .close {
+font-size:30px;
+}
+}

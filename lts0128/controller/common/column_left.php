@@ -707,6 +707,16 @@
 						'children' => array()
 						);
 				}
+
+				// AJ Aug 6, added menu "module->quickmodal" to admin menu
+				if ($this->user->hasPermission('access', 'module/quickmodal')) {
+					$marketing[] = array(
+					'name'	   => "Quick Modal",
+					'href'     => $this->url->link('module/quickmodal', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+					);	
+				}
+
 				
 				if ($this->user->hasPermission('access', 'marketing/marketing')) {
 					$marketing[] = array(

@@ -3290,3 +3290,29 @@
 2021-08-05 23:01:43 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
 2021-08-05 23:05:38 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
 2021-08-05 23:15:09 - PHP Warning:  Use of undefined constant HTTP_TEST - assumed 'HTTP_TEST' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\ltsgroup\lts0128\controller\extension\store.php on line 76
+2021-08-06 12:45:27 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-06 12:48:03 - PHP Notice:  Undefined variable: help_display_option_product_list in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 501
+2021-08-06 12:48:03 - PHP Notice:  Undefined variable: help_cart_weight in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 943
+2021-08-06 16:17:44 - PHP Notice:  Undefined variable: help_display_option_product_list in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 501
+2021-08-06 16:17:44 - PHP Notice:  Undefined variable: help_cart_weight in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 943
+2021-08-06 16:19:45 - PHP Notice:  Undefined variable: help_display_option_product_list in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 501
+2021-08-06 16:19:45 - PHP Notice:  Undefined variable: help_cart_weight in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 943
+2021-08-06 16:27:47 - PHP Notice:  Undefined variable: help_display_option_product_list in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 501
+2021-08-06 16:27:47 - PHP Notice:  Undefined variable: help_cart_weight in C:\xampp\htdocs\ltsgroup\lts0128\view\template\setting\setting.tpl on line 943
+2021-08-06 16:44:09 - MAILCHIMP_INTEGRATION ERROR: The resource submitted could not be validated. For field-specific details, see the 'errors' array. Webhooks are no good without a valid URL. Please enter one.
+2021-08-06 16:45:04 - MAILCHIMP_INTEGRATION ERROR: The resource submitted could not be validated. For field-specific details, see the 'errors' array. Webhooks are no good without a valid URL. Please enter one.
+2021-08-07 16:43:25 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 93
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: hint_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 94
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 99
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: hint_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 100
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 105
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: hint_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 106
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 117
+2021-08-07 16:45:35 - PHP Notice:  Undefined variable: hint_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\search.tpl on line 118
+2021-08-07 16:49:29 - PHP Notice:  Undefined variable: quickmodal_layout in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-07 16:49:29 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-07 16:50:03 - PHP Notice:  Undefined variable: quickmodal_layout in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-07 16:50:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-07 16:50:49 - PHP Notice:  Undefined variable: quickmodal_layout in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-07 16:50:49 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
