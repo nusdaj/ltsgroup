@@ -3316,3 +3316,63 @@
 2021-08-07 16:50:03 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
 2021-08-07 16:50:49 - PHP Notice:  Undefined variable: quickmodal_layout in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
 2021-08-07 16:50:49 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\module\quickmodal.tpl on line 59
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: action in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 115
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: entry_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: error_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 119
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 124
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: error_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 125
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: entry_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 130
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: error_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 131
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: entry_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: error_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 143
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: captcha in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 150
+2021-08-08 22:30:43 - PHP Notice:  Undefined variable: validation_failed in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 163
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1078
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1092
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1104
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-08 22:31:18 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: action in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 115
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: entry_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: error_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 119
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 124
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: error_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 125
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: entry_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 130
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: error_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 131
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: entry_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: error_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 143
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: captcha in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 150
+2021-08-08 22:31:28 - PHP Notice:  Undefined variable: validation_failed in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 163
+2021-08-08 22:31:29 - PHP Notice:  Undefined index: g-recaptcha-response in C:\xampp\htdocs\ltsgroup\catalog\controller\extension\captcha\google_captcha.php on line 52
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: action in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 115
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: entry_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: error_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 119
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 124
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: error_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 125
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: entry_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 130
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: error_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 131
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: entry_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: error_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 143
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: captcha in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 150
+2021-08-08 22:36:47 - PHP Notice:  Undefined variable: validation_failed in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 163
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: action in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 115
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: entry_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 118
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: error_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 119
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 124
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: error_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 125
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: entry_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 130
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: error_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 131
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: entry_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 142
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: error_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 143
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: captcha in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 150
+2021-08-08 22:36:48 - PHP Notice:  Undefined variable: validation_failed in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 163
