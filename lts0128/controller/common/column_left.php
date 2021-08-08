@@ -268,17 +268,16 @@
 				
 				// Extension
 				$extension = array();
-				/* AJ Aug 6: extension store not useful */
-				/* if ($this->user->hasPermission('access', 'extension/store')) {
+				/* AJ Aug 5: enable below 2 menu items */
+					if ($this->user->hasPermission('access', 'extension/store')) {
 					$extension[] = array(
 					'name'	   => $this->language->get('text_store'),
 					'href'     => $this->url->link('extension/store', 'token=' . $this->session->data['token'], true),
 					'children' => array()
 					);
-					} */
+					}
 					
-				/* AJ Aug 5: enable extension installer. Not yet tested */
-				if ($this->user->hasPermission('access', 'extension/installer')) {
+					if ($this->user->hasPermission('access', 'extension/installer')) {
 					$extension[] = array(
 					'name'	   => $this->language->get('text_installer'),
 					'href'     => $this->url->link('extension/installer', 'token=' . $this->session->data['token'], true),
