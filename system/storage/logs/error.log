@@ -3377,3 +3377,4 @@
 2021-08-08 22:36:48 - PHP Notice:  Undefined variable: captcha in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 150
 2021-08-08 22:36:48 - PHP Notice:  Undefined variable: validation_failed in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\footer.tpl on line 163
 2021-08-08 22:54:37 - PHP Warning:  Use of undefined constant HTTP_TEST - assumed 'HTTP_TEST' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\ltsgroup\lts0128\controller\extension\store.php on line 76
+2021-08-08 22:59:27 - PHP Warning:  Use of undefined constant HTTP_TEST - assumed 'HTTP_TEST' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\ltsgroup\lts0128\controller\extension\store.php on line 76

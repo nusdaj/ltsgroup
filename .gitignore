@@ -1,4 +1,5 @@
 image
 system/storage/cache
+system/storage/logs
 
 script.txt
