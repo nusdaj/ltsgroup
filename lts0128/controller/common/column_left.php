@@ -707,14 +707,16 @@
 						);
 				}
 
+				// AJ Aug 8: removed. this module tested not working. Besides, we just need to move the part of our 
+				//           existing modal popup to the footer. It can be shared by every one already.
 				// AJ Aug 6, added menu "module->quickmodal" to admin menu
-				if ($this->user->hasPermission('access', 'module/quickmodal')) {
-					$marketing[] = array(
-					'name'	   => "Quick Modal",
-					'href'     => $this->url->link('module/quickmodal', 'token=' . $this->session->data['token'], true),
-					'children' => array()		
-					);	
-				}
+				// if ($this->user->hasPermission('access', 'module/quickmodal')) {
+				// 	$marketing[] = array(
+				// 	'name'	   => "Quick Modal",
+				// 	'href'     => $this->url->link('module/quickmodal', 'token=' . $this->session->data['token'], true),
+				// 	'children' => array()		
+				// 	);	
+				// } 
 
 				
 				if ($this->user->hasPermission('access', 'marketing/marketing')) {
