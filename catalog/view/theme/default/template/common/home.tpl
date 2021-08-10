@@ -9,10 +9,16 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>">
-      <?php echo $content_top; ?><?php echo $content_bottom; ?>
- 
+      <?php echo $content_top; ?>      
+      <?php echo $content_bottom; ?> 
     </div> <!-- content -->
-    <?php echo $column_right; ?></div>
+    <?php echo $column_right; ?>
+  </div>
 </div>
+
+<?php  /* AJ Aug 9: add in enquiry modal  */  ?>
+<?php echo "being modal"; ?>
+<?php echo $enquiry_modal;  ?>
+<?php echo "end modal" ?>
 
 <?php echo $footer; ?>
