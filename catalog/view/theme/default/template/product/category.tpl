@@ -65,4 +65,7 @@
 </div>
 </div>
 
+<?php  /* AJ Aug 10: add in enquiry modal  */  ?>
+<?php echo $enquiry_modal;  ?>
+
 <?php echo $footer; ?>

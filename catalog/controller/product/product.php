@@ -1,28 +1,5 @@
 <?php
 class ControllerProductProduct extends Controller {
-	private $error = array();
-
-	// Add New Post by defining it here
-    private $posts = array(
-        'name'      =>  '',
-        'subject'   =>  '',
-        'email'     =>  '',
-        'telephone' =>  '',
-        'featuredProduct' => '',
-        'enquiry'   =>  ''  // This will always be the last and large box
-    );
-
-    // Add your post value to ignore in the email body content
-    private $disallow_in_message_body = array(
-        'var_abc_name'
-    );
-
-    public function populateDefaultValue(){
-        $this->posts['name']        = $this->customer->getFirstName() . ' ' . $this->customer->getLastName();
-        $this->posts['email']       = $this->customer->getEmail();
-        $this->posts['telephone']   = $this->customer->getTelephone();
-    }
-
 	public function index() {
 		// test branches 
 
@@ -675,11 +652,12 @@ class ControllerProductProduct extends Controller {
 			$data['reviews'] = sprintf($this->language->get('text_reviews'), (int)$product_info['reviews']);
 			$data['rating'] = (int)$product_info['rating'];
 
-			// Captcha
-			$data['captcha'] = '';
-			if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('review', (array)$this->config->get('config_captcha_page'))) {
-				$data['captcha'] = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha'));
-			} 
+			// AJ Aug 10: should be useless now. remark first
+			// // Captcha
+			// $data['captcha'] = '';
+			// if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('review', (array)$this->config->get('config_captcha_page'))) {
+			// 	$data['captcha'] = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha'));
+			// } 
 			
 			$data['download'] = $this->model_catalog_product->getProductDownload($product_id);
 
@@ -733,109 +711,7 @@ class ControllerProductProduct extends Controller {
 
 			$data = $this->load->controller('common/common', $data); // Load header, footer, column left, right, top, bottom
 
-			//Form
-            // Populate values after customer logged in
-            if($this->customer->isLogged()) {
-                $this->populateDefaultValue();
-            }
-
-            if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-                
-                $mail = new Mail();
-                $mail->protocol = $this->config->get('config_mail_protocol');
-                $mail->parameter = $this->config->get('config_mail_parameter');
-                $mail->smtp_hostname = $this->config->get('config_mail_smtp_hostname');
-                $mail->smtp_username = $this->config->get('config_mail_smtp_username');
-                $mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
-                $mail->smtp_port = $this->config->get('config_mail_smtp_port');
-                $mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
-                
-                $mail->setTo($this->config->get('config_email'));
-                //$mail->setFrom($this->request->post['email']);
-                $mail->setFrom($this->config->get('config_email'));
-
-                $mail->setSender(html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'));
-                $mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['name']), ENT_QUOTES, 'UTF-8'));
-                
-                $message = "";
-                
-                foreach ($this->posts as $post_var => $post_default_value){
-                    if( !in_array($post_var, $this->disallow_in_message_body) ){
-                        $message .= $this->language->get('entry_' .$post_var) . ": ";
-                        //$message .= $this->request->post[$post_var]??"";
-                        $message .= $this->request->post[$post_var] ? $this->request->post[$post_var] : "";
-                        $message .= "<br/>";
-                    }
-                }
-                
-                $mail->setText($message);
-                // $mail->send();
-
-                // Pro email Template Mod
-                if($this->config->get('pro_email_template_status')){
-
-                    $this->load->model('tool/pro_email');
-
-                    $email_params = array(
-                        'type' => 'admin.information.contact',
-                        'mail' => $mail,
-                        'reply_to' => $this->request->post['email'],
-                        'data' => array(
-                            'enquiry_subject' => html_entity_decode($this->request->post['subject'], ENT_QUOTES, 'UTF-8'),
-                            'enquiry_telephone' => html_entity_decode($this->request->post['telephone'], ENT_QUOTES, 'UTF-8'),
-                            'enquiry_name' => html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'),
-							'enquiry_mail' => html_entity_decode($this->request->post['email'], ENT_QUOTES, 'UTF-8'),
-							'enquiry_product' => html_entity_decode($this->request->post['featuredProduct'], ENT_QUOTES, 'UTF-8'),
-                            'enquiry_message' => html_entity_decode($this->request->post['enquiry'], ENT_QUOTES, 'UTF-8')
-                            // AJ Apr 15, remarked: 'enquiry_message' => html_entity_decode($message, ENT_QUOTES, 'UTF-8'),
-                        ),
-                    );
-                    
-                    $this->model_tool_pro_email->generate($email_params);
-                }
-                else{
-                    $mail->send();
-                }
-                
-                $this->response->redirect($this->url->link('product/product/success'));
-			}
-			
-			// AJ Apr 21: added to carry the validate result to form.
-			if ($this->request->server['REQUEST_METHOD'] == 'POST') { 
-				$data['validation_failed'] = true;  // POST but validation failed. Need to show the modal window
-			} else {
-				$data['validation_failed'] = false; 
-			}
-
-            $data['action'] = $this->url->link('product/product','product_id=' . (int)$this->request->get['product_id'], true);
-
-			// Captcha
-			$data['captcha'] = '';
-			if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('contact', (array)$this->config->get('config_captcha_page'))) {
-				$data['captcha'] = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha'), $this->error);
-			}
-
             $data = $this->load->controller('component/common', $data);
-
-            foreach ($this->posts as $post_var => $post_default_value){
-                $data[$post_var] = $post_default_value;
-                $data['error_' . $post_var] = '';
-
-                // Label Value
-                $data['entry_' . $post_var] = $this->language->get('entry_' . $post_var);
-
-                // Post Value
-                if( isset($this->request->post[$post_var]) ) {
-                    $data[$post_var] = $this->request->post[$post_var];
-                }
-
-                // Error Value
-                if( isset($this->error[$post_var]) ) {
-                    $data['error_' . $post_var] = $this->error[$post_var];
-                }
-            }
-            //debug($this->error);
-            //End of Form
 
 			$this->response->setOutput($this->load->view('product/product/product', $data));
 
@@ -1458,40 +1334,6 @@ class ControllerProductProduct extends Controller {
 		$this->response->setOutput(json_encode($data));
 	}
     // >> OPTIONS IMAGE
-
-	protected function validate() {
-            if ((utf8_strlen($this->request->post['name']) < 3) || (utf8_strlen($this->request->post['name']) > 32)) {
-                $this->error['name'] = $this->language->get('error_name');
-            }
-
-			// AJ Apr 21: no need to validate, it's hidden field
-            // if ((utf8_strlen($this->request->post['subject']) < 3) || (utf8_strlen($this->request->post['subject']) > 32)) {
-            //     $this->error['subject'] = $this->language->get('error_subject');
-            // }
-            
-            if ((int)$this->request->post['telephone'] < 1) {
-                $this->error['telephone'] = $this->language->get('error_telephone');
-            }
-            
-            if (!filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL)) {
-                $this->error['email'] = $this->language->get('error_email');
-            }
-            
-            if ((utf8_strlen($this->request->post['enquiry']) < 10) || (utf8_strlen($this->request->post['enquiry']) > 3000)) {
-                $this->error['enquiry'] = $this->language->get('error_enquiry');
-            }
-            
-            // Captcha
-            if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('contact', (array)$this->config->get('config_captcha_page'))) {
-                $captcha = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha') . '/validate');
-                
-                if ($captcha) {
-                    $this->error['captcha'] = $captcha;
-                }
-            }
-            
-            return !$this->error;
-        }
 
     public function success() {
 

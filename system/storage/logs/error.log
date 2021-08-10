@@ -1,7 +1,82 @@
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1078
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1092
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1104
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
-2021-08-10 13:06:56 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-10 16:08:04 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-10 16:08:07 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-10 16:08:10 - PHP Notice:  Undefined variable: enquiry_modal in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\category.tpl on line 69
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1078
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1092
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1104
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-10 16:19:02 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-10 16:19:25 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 16:20:38 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 16:26:53 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1078
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1092
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1104
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1114
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-10 16:27:48 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1117
+2021-08-10 16:28:02 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 16:28:13 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 17:37:33 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-10 17:37:33 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-10 17:37:33 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 191
+2021-08-10 17:37:47 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:37:47 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:48:51 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:48:54 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-10 17:48:54 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-10 17:48:54 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 175
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1057
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1071
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1083
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1093
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1093
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1096
+2021-08-10 17:50:19 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1096
+2021-08-10 17:50:30 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 17:50:33 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:50:37 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:50:40 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 17:50:41 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:50:55 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:50:56 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-10 17:50:56 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-10 17:50:56 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 175
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1057
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1071
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1083
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1093
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1093
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1096
+2021-08-10 17:52:07 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 1096
+2021-08-10 17:52:21 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 17:52:23 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:52:24 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:52:27 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 17:52:28 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:52:50 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:53:01 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:53:11 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:53:30 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:53:51 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 17:53:53 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-10 17:53:53 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-10 17:53:53 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 175
+2021-08-10 17:53:59 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 18:02:20 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 18:02:35 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 954
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 968
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 980
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
+2021-08-10 18:02:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
+2021-08-10 18:03:05 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 18:03:06 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 18:03:08 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002
+2021-08-10 18:03:11 - PHP Notice:  Undefined variable: data in C:\xampp\htdocs\ltsgroup\catalog\controller\common\home.php on line 15
+2021-08-10 18:03:12 - PHP Unknown:  Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in C:\xampp\htdocs\ltsgroup\catalog\model\catalog\discount.php on line 1002

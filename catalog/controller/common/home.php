@@ -11,14 +11,14 @@ class ControllerCommonHome extends Controller {
 			$this->document->addLink($this->config->get('config_url'), 'canonical');
 		}
 
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['column_right'] = $this->load->controller('common/column_right');
-		$data['content_top'] = $this->load->controller('common/content_top');
-		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-		$data['footer'] = $this->load->controller('common/footer');
-		$data['header'] = $this->load->controller('common/header');
-		// AJ Apr 9: Add in enquiry modal model
-		$data['enquiry_modal'] = $this->load->controller('common/enquiry_modal');
+		// AJ Aug 10: Replace the following loads by the single one below.
+		$data = $this->load->controller('component/common', $data);
+		// $data['column_left'] = $this->load->controller('common/column_left');
+		// $data['column_right'] = $this->load->controller('common/column_right');
+		// $data['content_top'] = $this->load->controller('common/content_top');
+		// $data['content_bottom'] = $this->load->controller('common/content_bottom');
+		// $data['footer'] = $this->load->controller('common/footer');
+		// $data['header'] = $this->load->controller('common/header');
 
 		$this->response->setOutput($this->load->view('common/home', $data));
 	}

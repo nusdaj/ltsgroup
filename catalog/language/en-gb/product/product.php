@@ -51,20 +51,3 @@ $_['tab_review']               = 'Reviews (%s)';
 $_['error_name']               = 'Warning: Review Name must be between 3 and 25 characters!';
 $_['error_text']               = 'Warning: Review Text must be between 10 and 1000 characters!';
 $_['error_rating']             = 'Warning: Please select a review rating!'; 
-
-// AJ Apr 15: added Hints. copied from home.tpl
-// because validation is done in client's browser
-// $_['hint_name']        = 'Between 3 and 32 characters';
-// $_['hint_subject']     = 'Between 3 and 32 characters';
-// $_['hint_telephone']   = 'Numbers only';
-// $_['hint_email']       = 'Valid Email address';
-// $_['hint_enquiry']     = 'Message between 10 and 300 characters';
-
-// AJ Apr 20, copied from category.php language file. modified accordingly.
-// Errors
-$_['error_name']        = 'Name must be between 3 and 32 characters!';
-$_['error_subject']     = 'Subject must be between 3 and 32 characters!';
-$_['error_telephone']   = 'Contact No. must be all numbers';
-$_['error_email']       = 'Email Address does not appear to be valid!';
-$_['error_enquiry']     = 'Message must be between 10 and 300 characters!';
-$_['error_featuredProduct'] = 'Enquiry must be between 10 and 300 characters!';

@@ -514,4 +514,8 @@ function toggleProductModal(product) {
       <!-- completecombo -->
       <?php if (isset($salescombopgeoffers)) { echo $offerpopup ; } ?>
       <!-- completecombo -->
+
+	<?php  /* AJ Aug 9: add in enquiry modal  */  ?>
+	<?= $enquiry_modal;  ?>
+	  
 			<?= $footer; ?>

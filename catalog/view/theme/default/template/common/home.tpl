@@ -17,8 +17,6 @@
 </div>
 
 <?php  /* AJ Aug 9: add in enquiry modal  */  ?>
-<?php echo "being modal"; ?>
 <?php echo $enquiry_modal;  ?>
-<?php echo "end modal" ?>
 
 <?php echo $footer; ?>

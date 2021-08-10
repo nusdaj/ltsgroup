@@ -128,4 +128,9 @@ $('select[name=\'category_id\']').trigger('change');
 <script>
   fbq('track', 'Search');
 </script>
+
+
+<?php  /* AJ Aug 9: add in enquiry modal  */  ?>
+<?= $enquiry_modal;  ?>
+
 <?= $footer; ?>

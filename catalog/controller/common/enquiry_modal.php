@@ -101,6 +101,13 @@ class ControllerCommonEnquiryModal extends Controller
 				$mail->send();
 			}
 
+			// AJ Apr 21: added to carry the validate result to form.
+			if ($this->request->server['REQUEST_METHOD'] == 'POST') { 
+				$data['validation_failed'] = true;  // POST but validation failed. Need to show the modal window
+			} else {
+				$data['validation_failed'] = false; 
+			}
+
 			$this->response->redirect($this->url->link('product/category/success'));
 		}
 		/* AJ Apr 14, end: handler to POST form data */

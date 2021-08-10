@@ -1,5 +1,7 @@
 <?php
 
+$_['text_success']	    = '<p>Your enquiry has been successfully sent to the store owner!</p>';
+
 // Entry
 $_['entry_name']        = 'Name';
 $_['entry_subject']     = 'Subject';
