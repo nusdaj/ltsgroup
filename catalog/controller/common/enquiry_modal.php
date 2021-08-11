@@ -34,7 +34,8 @@ class ControllerCommonEnquiryModal extends Controller
 
 	public function index()	{
 		/* AJ Apr 14, begin: handler to POST form data */
-		$data['continue'] = $this->url->link('common/home');
+		/* AJ Aug 11: below continue is useless. It's set in the success page */
+		// $data['continue'] = $this->url->link('product/category');
 
 		// AJ Apr 20: must load language file before validation. otherwise, error description will be random.
 		$this->load->language('common/enquiry_modal');
@@ -113,13 +114,19 @@ class ControllerCommonEnquiryModal extends Controller
 		/* AJ Apr 14, end: handler to POST form data */
 
 		// AJ Apr 14: set POST action target
-		$data['action'] = $this->url->link('common/home', '', true);
+		// $data['action'] = $this->url->link('common/home', '', true);
+		// AJ Aug 11: set POST action to current page. 
+		// https://code.tutsplus.com/tutorials/how-to-rewrite-custom-urls-in-opencart--cms-25734
+		$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+		// $data['action'] = $this->url->link($this->request->get['_route_'], '', true);
+		$data['action'] = $actual_link;
+		// echo "<script>alert('" . $actual_link . "')</script>";
 
 		// AJ Apr 20: added to carry the validate result to form.
 		if ($this->request->server['REQUEST_METHOD'] == 'POST') {
 			$data['validation_failed'] = true;  // POST but validation failed. Need to show the modal window
 
-			// AJ Apr 20: reset error messages
+			// AJ Apr 20: reset error 'messages'
 			foreach ($this->posts as $post_var => $post_default_value) {
 				// Post Value
 				if (isset($this->request->post[$post_var])) {
@@ -146,26 +153,6 @@ class ControllerCommonEnquiryModal extends Controller
 				$data['entry_' . $post_var] = $this->language->get('entry_' . $post_var);
 			}
 		}
-
-		// AJ Apr 20: reset error messages
-		// AJ Apr 20: remark below statements and split them into the above if-else statement; try to save some time in execution.
-		// foreach ($this->posts as $post_var => $post_default_value) {
-		// 	$data[$post_var] = $post_default_value;
-		// 	$data['error_' . $post_var] = '';
-
-		// 	// Label Value
-		// 	$data['entry_' . $post_var] = $this->language->get('entry_' . $post_var);
-
-		// 	// Post Value
-		// 	if( isset($this->request->post[$post_var]) ) {
-		// 		$data[$post_var] = $this->request->post[$post_var];
-		// 	}
-
-		// 	// Error Value
-		// 	if( isset($this->error[$post_var]) ) {
-		// 		$data['error_' . $post_var] = $this->error[$post_var];
-		// 	}
-		// }
 
 		// AJ Apr 19, copied from contact.php: Captcha
 		$data['captcha'] = '';

@@ -45,7 +45,7 @@
                         </div>
                         <div class="form-group hidden">
                             <input type="text" name="subject" id="input-subject" class="form-control"
-                                value="Enquiry Now from Featured Product in home page" />
+                                value="Enquiry Now from Official Website" />
                         </div>
                         <div class="form-group">
                             <input type="text" name="featuredProduct" id="input-products" class="form-control"
