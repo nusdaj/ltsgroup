@@ -13,6 +13,7 @@ class ControllerCommonEnquiryModal extends Controller
 	private $posts = array(
 		'name'      =>  '',
 		'subject'   =>  '',
+		'productId' =>  '',
 		'email'     =>  '',
 		'telephone' =>  '',
 		'featuredProduct' => '',
@@ -82,6 +83,10 @@ class ControllerCommonEnquiryModal extends Controller
 
 				$this->load->model('tool/pro_email');
 
+				// AJ Aug 12: need to change the pro_email template in the database table _proemail_content. 
+				// AJ Aug 12: add product id with link in the email
+				$prod_id = html_entity_decode($this->request->post['productId'], ENT_QUOTES, 'UTF-8'); 
+				$prod_link = $this->url->link('product/product', 'product_id=' . $prod_id, true);
 				$email_params = array(
 					'type' => 'admin.information.contact',
 					'mail' => $mail,
@@ -92,6 +97,8 @@ class ControllerCommonEnquiryModal extends Controller
 						'enquiry_name' => html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'),
 						'enquiry_mail' => html_entity_decode($this->request->post['email'], ENT_QUOTES, 'UTF-8'),
 						'enquiry_product' => html_entity_decode($this->request->post['featuredProduct'], ENT_QUOTES, 'UTF-8'),  // AJ Apr 14: add product name in the email
+						'enquiry_id' => $prod_id,
+						'enquiry_link' => $prod_link,
 						'enquiry_message' => html_entity_decode($this->request->post['enquiry'], ENT_QUOTES, 'UTF-8')
 						// 'enquiry_message' => html_entity_decode($message, ENT_QUOTES, 'UTF-8')
 					),

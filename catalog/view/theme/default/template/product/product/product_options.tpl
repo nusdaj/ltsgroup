@@ -153,7 +153,7 @@
       <br />
 
       <div class="product-btninner">
-        <a class="btn btn-primary btn-quick" data-toggle="modal" data-target="#enquiryModal" onclick="toggleProductModal('<?= $product_name; ?>')">Quick Enquire</a>
+        <a class="btn btn-primary btn-quick" data-toggle="modal" data-target="#enquiryModal" onclick="toggleProductModal('<?= $product_name; ?>', '<?= $product_id; ?>')">Quick Enquire</a>
 
         <button type="button" id="button-enquiry" data-loading-text="<?= $text_loading; ?>" class="btn btn-primary" class="enquiry.add(<?= $product_id; ?>)">Add to enquiry cart</button>
 

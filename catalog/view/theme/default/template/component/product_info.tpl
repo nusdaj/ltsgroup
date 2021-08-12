@@ -96,7 +96,7 @@
 	    	<?php /* AJ Apr 11 removed: <a class="btn btn-primary btncartinfo" onclick="cart.add(<?= $product_id; ?>)">Add to Cart</a> */ ?>
 	    	<a href="<?= $href ?>" class="btn btn-primary">View More</a>
 			<?php /* AJ Apr 13: we add in htmlentities to wrap the 'name' field. this $name caused an error - SyntaxError: '' string literal contains an unescaped line break */ ?>
-			<a class="btn btn-primary" data-toggle="modal" data-target="#enquiryModal" onclick="toggleProductModal('<?php echo htmlentities($name) ?>')">Enquire Now</a>
+			<a class="btn btn-primary" data-toggle="modal" data-target="#enquiryModal" onclick="toggleProductModal('<?php echo htmlentities($name) ?>', '<?= $product_id; ?>')">Enquire Now</a>
 			
 	    </div>
 

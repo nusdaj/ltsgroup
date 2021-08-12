@@ -60,9 +60,10 @@
 </div>
 
 <script type="text/javascript">
-function toggleProductModal(product) {
-  $("#enquiryModal #input-product").val(product);
-}
+// AJ Aug 12: this function should be removed. because enquiry_modal has it already
+// function toggleProductModal(product) {
+//  $("#enquiryModal #input-product").val(product);
+// }
 </script>
 
 <script type="text/javascript"><!--

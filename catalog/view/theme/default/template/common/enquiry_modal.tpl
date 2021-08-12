@@ -47,6 +47,10 @@
                             <input type="text" name="subject" id="input-subject" class="form-control"
                                 value="Enquiry Now from Official Website" />
                         </div>
+                        <div class="form-group hidden">
+                        <input type="text" name="productId" id="input-productId" class="form-control"
+                            value="<?php $productId; ?>" />
+                        </div>
                         <div class="form-group">
                             <input type="text" name="featuredProduct" id="input-products" class="form-control"
                                 value="<?php $featuredProduct; ?>" readonly />
@@ -75,18 +79,20 @@
 </div>
 <!-- AJ Apr 12, end: add Modal window; Apr 14, end: hint & validation at browser -->
 
-<?php /* 
-Apr 20, begin: check if validation failed. failed, show the modal dialog */ ?>
+<?php /* Apr 20, begin: check if validation failed. failed, show the modal dialog 
+         AJ Aug 12: removed from below "$('#input-products').val('$featuredProduct'); ". Don't seem necessary.
+         NOPE! IT's necessary! Otherwise, when there is error after validation and modal re-appears, product info is gone. */ ?>
 <?php if ($validation_failed == true) {
-  echo  "<script>  $(function() { $('#input-products').val('$featuredProduct'); $('#enquiryModal').modal('show');  }); </script>";
+  echo  "<script>  $(function() { $('#input-products').val('$featuredProduct');  $('#input-productId').val('$productId');  $('#enquiryModal').modal('show');  }); </script>";
 } ?>
 
 
 <?php /* AJ AUG 8: moved here from home.tpl. Hopefully, other 4 places can share this part of code
 AJ Apr 12, begin: add call to the Modal window */ ?>
 <script type="text/javascript">
-    function toggleProductModal(product) {
+    function toggleProductModal(product, id) {
         $("#enquiryModal #input-products").val(product);
+        $("#enquiryModal #input-productId").val(id);
     }
 </script>
 <?php /* AJ Apr 12, end: add call to the Modal window */ ?>
