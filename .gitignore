@@ -1,5 +1,8 @@
 image
-system/storage/cache
-system/storage/logs
+system/storage/cache/**
+system/storage/logs/**
 
 script.txt
+system/storage/cache/cache-ig-c1f17cc3a9b0478d752b2ab898b5db1b
+system/storage/logs/error.log
+system/storage/logs/facebook_ads_extension.log

@@ -85,24 +85,38 @@ class ControllerCommonEnquiryModal extends Controller
 
 				// AJ Aug 12: need to change the pro_email template in the database table _proemail_content. 
 				// AJ Aug 12: add product id with link in the email
-				$prod_id = html_entity_decode($this->request->post['productId'], ENT_QUOTES, 'UTF-8'); 
-				$prod_link = $this->url->link('product/product', 'product_id=' . $prod_id, true);
+				// AJ Aug 14: store values in our own array. Don't know why $email_params['data'] seems not working
+				$aj_params = array (
+					'subject' => $this->request->post['subject'],
+					'telephone' => $this->request->post['telephone'],
+					'name' => $this->request->post['name'], 
+					'email' => $this->request->post['email'],
+					'product_name' => $this->request->post['featuredProduct'],
+					'product_id' => $this->request->post['productId'],
+					'product_link' => $this->url->link('product/product', 'product_id=' . $this->request->post['productId'], true),
+					'message' => $this->request->post['enquiry']
+				);
+
 				$email_params = array(
 					'type' => 'admin.information.contact',
 					'mail' => $mail,
 					'reply_to' => $this->request->post['email'],
 					'data' => array(
-						'enquiry_subject' => html_entity_decode($this->request->post['subject'], ENT_QUOTES, 'UTF-8'),
-						'enquiry_telephone' => html_entity_decode($this->request->post['telephone'], ENT_QUOTES, 'UTF-8'),
-						'enquiry_name' => html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'),
-						'enquiry_mail' => html_entity_decode($this->request->post['email'], ENT_QUOTES, 'UTF-8'),
-						'enquiry_product' => html_entity_decode($this->request->post['featuredProduct'], ENT_QUOTES, 'UTF-8'),  // AJ Apr 14: add product name in the email
-						'enquiry_id' => $prod_id,
-						'enquiry_link' => $prod_link,
-						'enquiry_message' => html_entity_decode($this->request->post['enquiry'], ENT_QUOTES, 'UTF-8')
+						'enquiry_subject' => html_entity_decode($aj_params['subject'], ENT_QUOTES, 'UTF-8'),
+						'enquiry_telephone' => html_entity_decode($aj_params['telephone'], ENT_QUOTES, 'UTF-8'),
+						'enquiry_name' => html_entity_decode($aj_params['name'], ENT_QUOTES, 'UTF-8'),
+						'enquiry_mail' => html_entity_decode($aj_params['email'], ENT_QUOTES, 'UTF-8'),
+						'enquiry_product' => html_entity_decode($aj_params['product_name'], ENT_QUOTES, 'UTF-8'),  // AJ Apr 14: add product name in the email
+						'enquiry_id' => $aj_params['product_id'],
+						'enquiry_link' => $aj_params['product_link'],
+						'enquiry_message' => html_entity_decode($aj_params['message'], ENT_QUOTES, 'UTF-8')
 						// 'enquiry_message' => html_entity_decode($message, ENT_QUOTES, 'UTF-8')
 					),
 				);
+
+				// AJ Aug 14: insert relevant Enquire Now into table _enquirenow. pass only data part of email params
+				$this->load->model('enquirenow/enquiry');
+				$this->model_enquirenow_enquiry->saveEnquiry($aj_params);
 
 				$this->model_tool_pro_email->generate($email_params);
 			} else {
