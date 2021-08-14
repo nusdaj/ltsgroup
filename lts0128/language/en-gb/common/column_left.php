@@ -38,6 +38,7 @@ $_['text_manufacturer']              = 'Brands';
 $_['text_option']                    = 'Options';
 $_['text_order']                     = 'Orders';
 $_['text_enquiry']                   = 'Enquiries';
+$_['text_enquirenow']                = 'Enquire Now';
 $_['text_order_status']              = 'Order/Enquiry Status';
 $_['text_product']                   = 'Products';
 $_['text_reports']                   = 'Reports';

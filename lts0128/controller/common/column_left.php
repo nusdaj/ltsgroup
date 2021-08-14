@@ -424,6 +424,15 @@
 					);
 				}
 				
+				// AJ Aug 14: Enquire Now feature
+				if ($this->user->hasPermission('access', 'sale/enquirenow')) {
+					$sale[] = array(
+					'name'	   => $this->language->get('text_enquirenow'),
+					'href'     => $this->url->link('sale/enquirenow', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+					);
+				}
+
 				// if ($this->user->hasPermission('access', 'sale/recurring')) {
 				// 	$sale[] = array(
 				// 	'name'	   => $this->language->get('text_recurring'),
