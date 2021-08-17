@@ -272,13 +272,42 @@ class ControllerSaleEnquirenow extends Controller {
 			$data['pricelist'] = array();
 
 			$product = $this->model_catalog_product->getProduct($enquiry_info['product_id']);
-			$data['pricelist'][$product['minimum']] = $product['price'];
+			$data['pricelist'][$product['minimum']] = round((float)$product['price'],2);
 
 			$discounts = $this->model_catalog_product->getProductDiscounts($enquiry_info['product_id']);
 			foreach ($discounts as $discount) {
-				$data['pricelist'][$discount['quantity']] = $discount['price'];
+				$data['pricelist'][$discount['quantity']] = round((float)$discount['price'],2);
 			}
 
+			// AJ Aug 17: additional tabs for storing and showing printing cost.
+			$data['tabs'] = array();
+			$cat_id = 100; // Hard-coded, category name "Logo Printing"
+			$products = $this->model_catalog_product->getProductsByCategoryId($cat_id);
+
+			foreach ($products as $product) {
+				$product = $this->model_catalog_product->getProduct($product['product_id']);
+				$discounts = $this->model_catalog_product->getProductDiscounts($product['product_id']);
+
+				$content = '<h3>' . $product['name'] . '</h3>';
+				$content = $content . '<table class="table table-bordered"><thead><tr><td>' . $data['text_quantity'] . '</td>';
+				$content = $content . '<td>' . $product['minimum'] . '</td>';
+				foreach ($discounts as $discount) {
+					$content = $content . '<td>' . $discount['quantity'] . '</td>';
+				}
+				$content = $content . '</tr></thead><tbody><tr><td>' . $data['text_price'] . '</td>';
+				$content = $content . '<td>' . round($product['price'],2) . '</td>';
+				foreach ($discounts as $discount) {
+					$content = $content . '<td>' . round((float)$discount['price'],2) . '</td>';
+				}
+				$content = $content . '</tr></tbody></table>';				
+
+				$data['tabs'][] = array(
+					'code' => $product['product_id'],
+					'title' => substr($product['name'],0,12),
+					'content' => $content
+				);
+			}
+			
 			$data['header'] = $this->load->controller('common/header');
 			$data['column_left'] = $this->load->controller('common/column_left');
 			$data['footer'] = $this->load->controller('common/footer');

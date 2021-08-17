@@ -105,18 +105,17 @@
         <h3 class="panel-title"><i class="fa fa-info-circle"></i> <?php echo $text_printing_cost; ?></h3>
       </div>
       <div class="panel-body">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
+        <ul class="nav nav-tabs">
+          <?php foreach ($tabs as $index => $tab) { ?>
+          <li <?php if ($index==0) echo "class='active'";  ?>><a href="#tab-<?php echo $tab['code']; ?>" data-toggle="tab"><?php echo $tab['title']; ?></a></li>
+          <?php } ?>
+         </ul>
 
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-
-            </tr>
-          </tbody>
-        </table>
+        <div class="tab-content">
+          <?php foreach ($tabs as $index => $tab) { ?>
+          <div class="tab-pane <?php if ($index==0) echo ' active ' ?> " id="tab-<?php echo $tab['code']; ?>"><?php echo $tab['content']; ?></div>
+          <?php } ?>
+        </div>
       </div>
     </div>    
   </div>
