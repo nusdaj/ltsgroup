@@ -37,6 +37,8 @@ class ControllerErrorNotFound extends Controller {
 
 		$data['text_error'] = $this->language->get('text_error');
 
+		$data['image_src'] = 'image/catalog/error404.jpg';
+
 		$data['button_continue'] = $this->language->get('button_continue');
 
 		$data['continue'] = $this->url->link('common/home');

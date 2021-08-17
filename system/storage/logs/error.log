@@ -16,3 +16,5 @@
 2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
 2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
 2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-17 17:30:10 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-17 22:27:57 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
