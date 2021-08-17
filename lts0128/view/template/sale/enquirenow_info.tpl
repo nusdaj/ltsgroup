@@ -30,7 +30,7 @@
               </tr>
               <tr>
               <td><button data-toggle="tooltip" title="<?php echo $text_product; ?>" class="btn btn-info btn-xs"><i class="fa fa-file-powerpoint-o fa-fw"></i></button></td>
-              <td><?php echo $product; ?></td>
+              <td><a href="<?php echo $product_link; ?>" target="_blank"><?php echo $product; ?></a></td>
             </tr>
             </tbody>
           </table>

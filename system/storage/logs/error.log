@@ -1,0 +1,18 @@
+2021-08-17 15:56:04 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 7
+2021-08-17 15:56:04 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 8
+2021-08-17 15:56:04 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-17 15:56:04 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-17 15:56:05 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-17 16:01:07 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-17 16:01:13 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 7
+2021-08-17 16:01:13 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 8
+2021-08-17 16:01:13 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-17 16:01:13 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-17 16:01:13 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-17 16:10:19 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-17 16:10:19 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-17 16:10:19 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-17 16:10:40 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176

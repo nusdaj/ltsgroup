@@ -266,6 +266,7 @@ class ControllerSaleEnquirenow extends Controller {
 			$data['message'] = nl2br($enquiry_info['message']);
 			$data['product_id'] = $enquiry_info['product_id'];
 			$data['date_added'] = date($this->language->get('date_format_short'), strtotime($enquiry_info['date_added']));
+			$data['product_link'] = str_replace(HTTPS_SERVER, HTTPS_CATALOG, $this->url->link('product/product&product_id=' . $enquiry_info['product_id']));
 
 			// AJ Aug 16: get full price list of the product, as well as printing cost, if any.
 			$this->load->model('catalog/product');

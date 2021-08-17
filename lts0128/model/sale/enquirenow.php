@@ -3,7 +3,7 @@
 class ModelSaleEnquirenow extends Model {
 	
 	public function deleteEnquirenow($id) {
-        debug($id);
+        // debug($id);
 		$this->db->query("DELETE FROM `" . DB_PREFIX . "enquirenow` WHERE id = '" . (int)$id . "'");
     }	
     
