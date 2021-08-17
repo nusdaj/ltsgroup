@@ -27,7 +27,7 @@ class ControllerSaleEnquirenow extends Controller {
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
-			$this->response->redirect($this->url->link('sale/enquiry', 'token=' . $this->session->data['token'], true));
+			$this->response->redirect($this->url->link('sale/enquirenow', 'token=' . $this->session->data['token'], true));
 		}
 
 		$this->getList();
