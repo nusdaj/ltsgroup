@@ -18,3 +18,27 @@
 2021-08-17 16:10:45 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
 2021-08-17 17:30:10 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
 2021-08-17 22:27:57 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-18 17:02:16 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 954
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 968
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 980
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
+2021-08-18 17:03:24 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
+2021-08-18 17:08:28 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-18 17:08:28 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-18 17:08:28 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-18 23:09:13 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-18 23:12:49 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-18 23:36:25 - PHP Notice:  Undefined variable: entry_name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\enquiry_modal.tpl on line 21
+2021-08-18 23:36:25 - PHP Notice:  Undefined variable: entry_email in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\enquiry_modal.tpl on line 30
+2021-08-18 23:36:25 - PHP Notice:  Undefined variable: entry_telephone in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\enquiry_modal.tpl on line 39
+2021-08-18 23:36:25 - PHP Notice:  Undefined variable: entry_enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\common\enquiry_modal.tpl on line 60
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 954
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 968
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 980
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 990
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
+2021-08-18 23:36:53 - PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\ltsgroup\catalog\controller\product\product.php on line 993
