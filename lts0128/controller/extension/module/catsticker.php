@@ -1,16 +1,16 @@
 <?php
-class ControllerExtensionModuleSticker extends Controller {
+class ControllerExtensionModuleCatsticker extends Controller {
 	private $error = array();
 
 	public function index() {
-		$this->load->language('extension/module/sticker');
+		$this->load->language('extension/module/catsticker');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->load->model('setting/setting');
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			$this->model_setting_setting->editSetting('sticker', $this->request->post);
+			$this->model_setting_setting->editSetting('catsticker', $this->request->post);
 
 			$this->session->data['success'] = $this->language->get('text_success');
 
@@ -48,28 +48,28 @@ class ControllerExtensionModuleSticker extends Controller {
 
 		$data['breadcrumbs'][] = array(
 			'text' => $this->language->get('heading_title'),
-			'href' => $this->url->link('extension/module/sticker', 'token=' . $this->session->data['token'], true)
+			'href' => $this->url->link('extension/module/catsticker', 'token=' . $this->session->data['token'], true)
 		);
 
-		$data['action'] = $this->url->link('extension/module/sticker', 'token=' . $this->session->data['token'], true);
+		$data['action'] = $this->url->link('extension/module/catsticker', 'token=' . $this->session->data['token'], true);
 
 		$data['cancel'] = $this->url->link('extension/extension', 'token=' . $this->session->data['token'] . '&type=module', true);
 
-		if (isset($this->request->post['sticker_status'])) {
-			$data['sticker_status'] = $this->request->post['sticker_status'];
+		if (isset($this->request->post['catsticker_status'])) {
+			$data['catsticker_status'] = $this->request->post['catsticker_status'];
 		} else {
-			$data['sticker_status'] = $this->config->get('sticker_status');
+			$data['catsticker_status'] = $this->config->get('catsticker_status');
 		}
 
 		$data['header'] = $this->load->controller('common/header');
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['footer'] = $this->load->controller('common/footer');
 
-		$this->response->setOutput($this->load->view('extension/module/sticker', $data));
+		$this->response->setOutput($this->load->view('extension/module/catsticker', $data));
 	}
 
 	protected function validate() {
-		if (!$this->user->hasPermission('modify', 'extension/module/sticker')) {
+		if (!$this->user->hasPermission('modify', 'extension/module/catsticker')) {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 

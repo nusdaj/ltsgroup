@@ -1,5 +1,5 @@
 <?php
-class ControllerExtensionModuleSticker extends Controller {
+class ControllerExtensionModuleCatsticker extends Controller {
 	
 	private $gets = array(
 			'path'	=> 'underscore,number', 
