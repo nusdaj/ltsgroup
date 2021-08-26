@@ -476,6 +476,17 @@ class ModelCatalogProduct extends Model {
 		return $product_data;
 	}
 
+	// AJ Aug 25: get Products by array of product ids
+	public function getProductsByIDs($ids = array()) {
+		$product_data = array();
+		
+		foreach ($ids as $id) {
+			$product_data[$id] = $this->getProduct($id);
+		}
+		
+		return $product_data;
+	}
+	
 	// AJ May 22: add a new function for Soundex only.
 	public function getProductsSoundex($data = array(), $sub_query = false) {
 

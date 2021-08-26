@@ -1,4 +1,10 @@
 <?php
+/* AJ Aug 26: The same-named backend-module will be kept for reference only. And this front-end module will be kept
+   as is. It is never complete, nor functional!!!
+   We will take a totally different way to handle the stickers. In short, we will create a category branch (contians two levels),
+   which is exactly the same as the other branches. And we use the same code to display the branch. 
+   What we need to do is to enhance the current sticker module (if any) with a function to update the category branch lively.
+   */
 class ControllerExtensionModuleCatsticker extends Controller {
 	
 	private $gets = array(
@@ -12,17 +18,11 @@ class ControllerExtensionModuleCatsticker extends Controller {
 	);
 
 	private $route = array(
-		'product/category',
-		'product/special',
+		'product/catsticker',
 	);
 
 	public function index() {
-		$this->load->model('extension/module/category');
-
-		$data['button_filter'] = $this->language->get('button_filter');
-		$data['button_close'] = $this->language->get('button_close');
-
-		$route = 'product/category';
+		$route = 'product/catsticker';
 		
 		if( isset($this->request->get['route']) && in_array($this->request->get['route'], $this->route) ){
 			$route = $this->request->get['route'];
@@ -35,68 +35,40 @@ class ControllerExtensionModuleCatsticker extends Controller {
 
 		$data['page_url'] = $data['route'] = $route;
 
-		// Category
-		$data['categories']='';
+		// // Category
+		// $data['categories']='';
 		
-		if($this->config->get('category_ctgrs_status')){
-			$data['categories'] = $this->getCategoryFilter();
-		}
-		// End Category
-		
-		
-		// Manufacturer
-		$data['manufacturers']='';
-		
-		if($this->config->get('category_brand_status')){
-			$data['manufacturers'] = $this->getManufacturerFilter();
-		}
-		// End Manufacturer
-		
-		// Prices
-		$data['prices']='';
-		
-		if($this->config->get('category_price_status')) { 
-			$data['prices'] = $this->getPriceFilter();
-		}
-		// End Prices
-		
-		// Filter length
-		$data['length']='';
-		
-		if($this->config->get('category_length_status')) { 
-			$data['length'] = $this->getLengthFilter();
-		}
-		// Filter length END
+		// if($this->config->get('category_ctgrs_status')){
+		// 	$data['categories'] = $this->getCategoryFilter();
+		// }
+		// // End Category
 
-		// Filter
-		$data['filters']='';
-		
-		if($this->config->get('category_filter_status')) { 
-			$data['filters'] = $this->getFilter();
-		}
-		// End Filter
-		
-		return $this->load->view('extension/module/category', $data);
+		$this->load->model('extension/module/catsticker');
+
+		// Get all stickers
+		$data['stickers'] = $this->model_extension_module_catsticker->getStickers();
+			
+		return $this->load->view('extension/module/catsticker', $data);
 	}
 
-	// Version 2
-	private function getCategories($levels = 1, $category_id = 0, $current_level = 1){
-		$categories = $this->model_extension_module_category->getCategories($category_id);
+	// // Version 2
+	// private function getCategories($levels = 1, $category_id = 0, $current_level = 1){
+	// 	$categories = $this->model_extension_module_category->getCategories($category_id);
 		
-		$continue = false;
+	// 	$continue = false;
 
-		if($current_level < $levels){
-			$current_level++;
-			$continue = true;
-		}
+	// 	if($current_level < $levels){
+	// 		$current_level++;
+	// 		$continue = true;
+	// 	}
 		
-		foreach($categories as &$category){
-			$category['child'] = ($continue)?$this->getCategories($levels, $category['category_id'], $current_level):array();
-		}
+	// 	foreach($categories as &$category){
+	// 		$category['child'] = ($continue)?$this->getCategories($levels, $category['category_id'], $current_level):array();
+	// 	}
 		
-		return $categories;
-	}
-	// End Version 2
+	// 	return $categories;
+	// }
+	// // End Version 2
 
 	private function getFilter(){
 		// List by Category
@@ -320,187 +292,11 @@ class ControllerExtensionModuleCatsticker extends Controller {
 		return $this->load->view('extension/module/filter_group/prices', $data);
 	}
 	
-	// Filter length
-	private function getLengthFilter(){
-		
-		$url =	$this->loadUrl('length_min,length_max');
-
-		$path = 0;
-		
-		if(isset($this->request->get['path'])){
-			$path = $this->request->get['path'];
-		}
-
-		$paths = explode('_', $path);
-
-		$paths = end($paths);
-
-
-		$manufacturer_ids = array();
-
-		if(isset($this->request->get['manufacturer_id']) && isset($this->request->get['manufacturer_id']) ){
-			foreach(explode(',', $this->request->get['manufacturer_id']) as $mid){
-				if((int)$mid > 0){
-					$manufacturer_ids[] = (int)$mid;
-				}
-			}
-		}
-
-		$active = $this->url->link('product/category') . $url;
-	
-		$length_data = array();
-		
-		$this->load->model('catalog/product');
-		
-		$length_min = $lowest_length = $this->model_catalog_product->getLowesetLength($paths, $manufacturer_ids);
-		$length_max = $highest_length = $this->model_catalog_product->getHighestLength($paths, $manufacturer_ids);
-		
-		if( isset($this->request->get['length_min']) && (float)$this->request->get['length_min'] > -1 ){
-			$length_min = (float)$this->request->get['length_min'];
-		}
-		
-		if( isset($this->request->get['length_max']) && (float)$this->request->get['length_max'] > -1 ){
-			$length_max = (float)$this->request->get['length_max'];
-		}
-		
-		$length_class_id = $this->config->get('config_length_class_id');
-
-		$length_class = $this->length->getUnit($length_class_id);
-
-		$right_symbol = '';
-		
-		if($length_class) {
-			$right_symbol = $length_class;
-		}
-
-		$this->load->language('extension/module/length');
-		
-		$data = array(
-			'heading_title'	=> $this->language->get('heading_title'),
-			'active'		=> $active,
-			'right_symbol'	=> $right_symbol,
-			// Filter length
-			'lowest_length'	=> sprintf('%.2f', floor($lowest_length)),
-			'highest_length'	=> sprintf('%.2f', ceil($highest_length)),
-			// Filter length END
-			'length_min'		=> sprintf('%.2f', floor($length_min)),
-			'length_max'		=> sprintf('%.2f', ceil($length_max)),
-			'button_apply'	=> $this->language->get('button_apply')
-		);
-
-		return $this->load->view('extension/module/filter_group/length', $data);
-	}
-	// Filter length END
-
-	
-	private function getManufacturerFilter(){
-
-		$get_related_manufacturer = $this->relatedManufacturer(); //debug($get_related_manufacturer);
-
-		$manufacturers = array();
-
-		$manufacturer_ids = isset($this->request->get['manufacturer_id'])?$this->request->get['manufacturer_id']:'';
-		
-		$manufacturer_ids = explode(',', $manufacturer_ids);
-
-		foreach($manufacturer_ids as $index => $manufacturer_id){
-			$manufacturer_ids[$index] = (int)$manufacturer_id;
-		}
-		
-		$this->load->language('extension/module/manufacturer');
-
-		$data['heading_title'] = $this->language->get('heading_title');
-
-		$this->load->model('catalog/manufacturer');
-		
-		//$results = $this->model_catalog_manufacturer->getManufacturers();
-
-		$results = $get_related_manufacturer;
-	
-		//debug($results);
-		
-		foreach($results as $result){
-			
-			$checked = in_array($result['manufacturer_id'], $manufacturer_ids)?true:false;
-			
-			$url_with_other_manufacturer = array();
-			
-			$manufacturer_id_set = array();
-
-			foreach($manufacturer_ids as $each_id){
-				if($each_id != $result['manufacturer_id']){
-					$manufacturer_id_set[]= $each_id;
-				}
-			}
-			
-			if(!$checked){
-				$manufacturer_id_set[]=$result['manufacturer_id'];
-			}
-
-			$url_with_other_manufacturer[] = 'manufacturer_id=' . implode(',', $manufacturer_id_set);
-			
-			$url_with_other_manufacturer = implode('&', $url_with_other_manufacturer);
-			
-			$manufacturers[] = array(
-				'mid'			=>	$result['manufacturer_id'],
-				'checked'		=>	$checked,
-				'name'			=>	$result['name'],
-				'href'			=>	$this->url->link('product/category', $url_with_other_manufacturer),
-			);
-			
-		}
-
-		$data['manufacturers'] = $manufacturers;
-		
-		return $this->load->view('extension/module/filter_group/manufacturers', $data);  
-	}
-
-	private function relatedManufacturer(){
-		$category_id = 0;
-
-		$manufacturers = array();
-
-		if(isset($this->request->get['path']) && !is_array($this->request->get['path'])){
-			$paths = explode('_', $this->request->get['path']);
-			$category_id = end($paths);
-			$category_id = (int)$category_id;
-		}
-
-		$this->load->model('catalog/category');
-
-		$category_info = $this->model_catalog_category->getCategory($category_id);
-
-		if($category_info){
-			$query = $this->db->query('
-				SELECT manufacturer_id, name FROM `'.DB_PREFIX.'manufacturer` WHERE manufacturer_id IN (
-					SELECT DISTINCT p.manufacturer_id FROM `' . DB_PREFIX . 'product` p LEFT JOIN `' . DB_PREFIX . 'product_to_category` p2c ON (p.product_id = p2c.product_id) LEFT JOIN `' . DB_PREFIX . 'category_path` cp ON (p2c.category_id = cp.category_id) WHERE cp.path_id="' . $category_id . '" AND p.manufacturer_id > 0 AND p.status=1
-					) ORDER BY sort_order ASC, name ASC
-				');
-			
-			if($query->num_rows){
-				$manufacturers = $query->rows;
-			}
-		}
-		else{
-			$query = $this->db->query('
-				SELECT manufacturer_id, name FROM `'.DB_PREFIX.'manufacturer` WHERE manufacturer_id IN (
-					SELECT DISTINCT manufacturer_id FROM `' . DB_PREFIX . 'product` WHERE manufacturer_id > 0 AND status=1
-					) ORDER BY sort_order ASC, name ASC
-				');
-			
-			if($query->num_rows){
-				$manufacturers = $query->rows;
-			}
-		}
-
-		return $manufacturers;
-	}
-	
 	private function getCategoryFilter(){
 	
 		$url = $this->loadUrl('path');
 
-		$route = 'product/category';
+		$route = 'product/catsticker';
 		
 		if( isset($this->request->get['route']) && in_array($this->request->get['route'], $this->route) ){
 			$route = $this->request->get['route'];
@@ -510,11 +306,11 @@ class ControllerExtensionModuleCatsticker extends Controller {
 		
 		$paths = explode('_', $path);
 
-		$this->load->language('extension/module/category');
+		$this->load->language('extension/module/catsticker');
 
 		$data['heading_title'] = $this->language->get('heading_title');
 	
-		$this->load->model('catalog/category');
+		$this->load->model('extension/module/catsticker');
 		
 		$categories = $this->model_catalog_category->getCategories(0);
 		

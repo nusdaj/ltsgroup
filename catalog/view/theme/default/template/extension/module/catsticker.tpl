@@ -1,19 +1,20 @@
-<?php /* ?>
-<button id="filter_group_tigger_open" class="visible-xs btn btn-primary" onclick="$('#filter-groups').addClass('open');" ><?= $button_filter; ?></button>
-<?php */ ?>
+<? php
+/* AJ Aug 26: The same-named backend-module will be kept for reference only. And this front-end module will be kept
+   as is. It is never complete, nor functional!!!
+   We will take a totally different way to handle the stickers. In short, we will create a category branch (contians two levels),
+   which is exactly the same as the other branches. And we use the same code to display the branch. 
+   What we need to do is to enhance the current sticker module (if any) with a function to update the category branch lively.
+   */
+?>
+
 <div id="filter-groups">
     <button id="filter_group_tigger_close" class="btn btn-danger fixed position-right-top visible-xs" onclick="$('#filter-groups').removeClass('open');" >
         <i class="fa fa-times" ></i>
     </button>
-    <?= $categories; ?>
-    <?= $manufacturers; ?>
+    <?= $stickers; ?>
+    <h1>Special Offers</h1>
     <?php /* please do not remove the below container (for filters use when triggering price filter AJAX) */ ?>
     <div id="for-filters-container"></div>
-    <?= $filters; ?>
-    <?= $prices; ?>
-    <!-- filter length -->
-    <?= $length; ?>
-    <!-- filter length -->
 
     <script type="text/javascript">
         // Handle Category

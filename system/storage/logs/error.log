@@ -1,6 +1,12 @@
-2021-08-22 21:47:32 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-08-24 10:38:47 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-08-24 10:48:20 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-24 10:48:20 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-24 10:48:20 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-24 10:48:20 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 11:35:17 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ltsgroup\system\helper\function.php:137) in C:\xampp\htdocs\ltsgroup\system\library\response.php on line 60
+2021-08-25 17:33:14 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-25 17:33:37 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:34:39 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:34:41 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:44:11 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:55:30 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:58:45 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-25 17:59:42 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-26 16:41:21 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-26 16:42:53 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-08-26 16:42:56 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
