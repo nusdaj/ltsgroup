@@ -1,5 +1,3 @@
-<h1>Modal Enquiry</h1>
-
 <?php /* AJ Aug 8: move the modal dialogue to the footer. Hopefully, it should remove the redunctancy occured
 	  AJ Apr 12, begin: add Modal window. Copy from Category.tpl; Apr 14, begin: change the error from hint & let validation done at browser */ ?>
 <!-- Modal -->

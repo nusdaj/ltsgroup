@@ -34,3 +34,18 @@
 2021-08-30 14:49:17 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 222
 2021-08-30 14:49:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\product.php on line 325
 2021-08-30 14:54:39 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 222
+2021-08-30 16:16:37 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 7
+2021-08-30 16:16:37 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 8
+2021-08-30 16:16:37 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-30 16:16:37 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-30 16:16:37 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-30 16:16:41 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 7
+2021-08-30 16:16:41 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 8
+2021-08-30 16:16:41 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-30 16:16:41 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-30 16:16:41 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
+2021-08-30 16:19:27 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 7
+2021-08-30 16:19:27 - PHP Notice:  Undefined variable: name in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_image.tpl on line 8
+2021-08-30 16:19:27 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
+2021-08-30 16:19:27 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
+2021-08-30 16:19:27 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
