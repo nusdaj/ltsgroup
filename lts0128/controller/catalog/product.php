@@ -313,6 +313,84 @@ class ControllerCatalogProduct extends Controller {
 		$this->getList();
 	}
 
+	// AJ Aug 28: Convert sticker into category tree
+	private function stickerToCategory(){
+		$CATNAME = "Promotion Zone";
+		$CATDESC = "Pseudo Category. Do NOT modify or delete";
+		$TOPCATORDER = 100;  // make sure the category is the last in the tree
+
+		// step 1: get the top category and delete it. The only index is the category name (Special Corner)
+		$this->load->model('catalog/category');
+		$results = $this->model_catalog_category->getCategoryIdByName($CATNAME);
+		foreach ($results as $result) {
+			$this->model_catalog_category->deleteCategory($result['category_id']);
+		}
+
+		// Step 2: create the top category and one sub-category for each sticker
+		$data = array(  // top category
+			'parent_id' => 0,
+			'sort_order' => $TOPCATORDER,
+			'backend_only' => 0,
+			'top' => 0,
+			'column' => 1,
+			'status' => 1,
+			'category_description' => array(
+				"1" => array(
+					'name' => $CATNAME,
+					'description' => $CATDESC,
+					'meta_title' => $CATNAME,
+					'meta_description' => '',
+					'meta_keyword' => '',
+				)
+			),
+			'category_store' => array(
+				"0",
+			),
+			'category_layout' => array(
+				"0" => "0",
+			),
+			'keyword' => preg_replace('/\s+/', '_', $CATNAME),
+		);
+		$parent_id = $this->model_catalog_category->addCategory($data);
+
+		$stickers = $this->config->get('sticker'); // make use of function from catalog/controller/component/sticker.php。 
+		$lang_id = $this->config->get('config_language_id');
+		if(is_array($stickers)) {
+			foreach($stickers as $sticker){
+				$sticker_name = isset($sticker['name'][$lang_id])?trim($sticker['name'][$lang_id]):'';
+				$data = array(  // sub-category. 
+					'parent_id' => $parent_id,
+					'sort_order' => 0,
+					'backend_only' => 0,
+					'top' => 0,
+					'column' => 1,
+					'status' => 1,
+					'category_description' => array(
+						"1" => array(
+							'name' => $sticker_name,
+							'description' => $CATDESC,
+							'meta_title' => $sticker_name,
+							'meta_description' => '',
+							'meta_keyword' => '',
+						)
+					),
+					'category_store' => array(
+						"0",
+					),
+					'category_layout' => array(
+						"0" => "0",
+					),
+					'keyword' => preg_replace('/\s+/', '_', $sticker_name),
+				);
+				$category_id = $this->model_catalog_category->addCategory($data);
+
+				// Step 3: add products under each sub-category
+				$this->model_catalog_category->addProductsToCategory($category_id, $sticker['products']);
+			}
+		}
+		// Done.						
+	}
+
 	public function sticker(){
 		
 		$json = true;
@@ -326,6 +404,8 @@ class ControllerCatalogProduct extends Controller {
 		$this->load->model('setting/setting');
 
 		$this->model_setting_setting->editSetting('sticker', $sticker);
+
+		$this->stickerToCategory(); // AJ Aug 28: add this function to insert category tree. MUST follow editsetting. otherwise, sticker is not updated.
 
 		$this->response->addHeader('Content-type: application/json');
 		$this->response->setOutput(json_encode($json));

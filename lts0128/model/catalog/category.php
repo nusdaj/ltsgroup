@@ -214,6 +214,21 @@ class ModelCatalogCategory extends Model {
 		return $query->row;
 	}
 
+	// AJ Aug 26: Get category_id by category name
+	// AJ Aug 30: return all IDs if there are multiple top categories with the same name
+	public function getCategoryIdByName($name) {
+		$sql = "SELECT category_id FROM ". DB_PREFIX . "category_description WHERE name='" . $this->db->escape($name) . "'";
+		$query = $this->db->query($sql);
+		return $query->rows;
+	}
+
+	// AJ Aug 27: add multiple products (by ID) into one category (by ID)
+	public function addProductsToCategory($category_id, $product_ids) {
+		foreach ($product_ids as $product_id) {
+			$this->db->query("INSERT INTO " . DB_PREFIX . "product_to_category SET product_id = '" . (int)$product_id . "', category_id = '" . (int)$category_id . "'");
+		}
+	}
+
 	public function getCategories($data = array()) {
 		$sql = "SELECT cp.category_id AS category_id, cd2.name as short_name, GROUP_CONCAT(cd1.name ORDER BY cp.level SEPARATOR '&nbsp;&nbsp;&gt;&nbsp;&nbsp;') AS name, GROUP_CONCAT(cd1.category_id ORDER BY cp.level SEPARATOR '_') AS category_path, c1.parent_id, c1.sort_order, c1.backend_only, c2.status FROM " . DB_PREFIX . "category_path cp LEFT JOIN " . DB_PREFIX . "category c1 ON (cp.category_id = c1.category_id) LEFT JOIN " . DB_PREFIX . "category c2 ON (cp.path_id = c2.category_id) LEFT JOIN " . DB_PREFIX . "category_description cd1 ON (cp.path_id = cd1.category_id) LEFT JOIN " . DB_PREFIX . "category_description cd2 ON (cp.category_id = cd2.category_id) WHERE cd1.language_id = '" . (int)$this->config->get('config_language_id') . "' AND cd2.language_id = '" . (int)$this->config->get('config_language_id') . "'";
 

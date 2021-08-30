@@ -1,12 +1,36 @@
-2021-08-25 11:35:17 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\ltsgroup\system\helper\function.php:137) in C:\xampp\htdocs\ltsgroup\system\library\response.php on line 60
-2021-08-25 17:33:14 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-08-25 17:33:37 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:34:39 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:34:41 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:44:11 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:55:30 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:58:45 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-25 17:59:42 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-26 16:41:21 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-08-26 16:42:53 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
-2021-08-26 16:42:56 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-30 11:56:50 - PHP Warning:  Unknown: Cannot call session save handler in a recursive manner in Unknown on line 0
+2021-08-30 11:56:50 - PHP Warning:  Unknown: Failed to write session data using user defined save handler. (session.save_path: C:\xampp\tmp) in Unknown on line 0
+2021-08-30 12:19:15 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:19:15 - PHP Warning:  Illegal string offset 'description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:19:15 - PHP Warning:  Illegal string offset 'meta_title' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:19:15 - PHP Warning:  Illegal string offset 'meta_description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:19:15 - PHP Warning:  Illegal string offset 'meta_keyword' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:19:30 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
+2021-08-30 12:37:37 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 12:38:21 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:38:21 - PHP Warning:  Illegal string offset 'description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:38:21 - PHP Warning:  Illegal string offset 'meta_title' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:38:21 - PHP Warning:  Illegal string offset 'meta_description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:38:21 - PHP Warning:  Illegal string offset 'meta_keyword' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:17 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 12:45:17 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:17 - PHP Warning:  Illegal string offset 'description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:17 - PHP Warning:  Illegal string offset 'meta_title' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:17 - PHP Warning:  Illegal string offset 'meta_description' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:17 - PHP Warning:  Illegal string offset 'meta_keyword' in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 18
+2021-08-30 12:45:36 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 13:00:29 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 13:10:38 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 13:10:39 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:39 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:39 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:40 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:40 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:41 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:41 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:41 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:10:42 - PHP Warning:  trim() expects parameter 1 to be string, array given in C:\xampp\htdocs\ltsgroup\system\library\db.php on line 20
+2021-08-30 13:14:38 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 223
+2021-08-30 14:49:17 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 222
+2021-08-30 14:49:17 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\product.php on line 325
+2021-08-30 14:54:39 - PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\ltsgroup\lts0128\model\catalog\category.php on line 222
