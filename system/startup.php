@@ -128,6 +128,11 @@ require_once(DIR_SYSTEM . 'helper/json.php');
 // Domain checker
 require_once(DIR_SYSTEM . 'domain_hop.php');
 
+// AJ Sep 2: add in TCPDF support. Include the main TCPDF library (search for installation path).
+// However, 
+// require_once('tcpdf_include.php');
+require_once(DIR_SYSTEM . 'library/tcpdf/tcpdf.php');
+
 function start($application_config) {
 	require_once(DIR_SYSTEM . 'framework.php');	
 }
