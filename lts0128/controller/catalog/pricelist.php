@@ -62,12 +62,12 @@
 						$results = $this->model_catalog_product->getProducts($filter_data);
 						foreach ($results as $result) {
 							$product_id = $result['product_id'];
-							// $product_info = $this->model_catalog_product->getProdut($product_id);
 
 							$attributes = $this->model_catalog_product->getProductAttributes($product_id);
 							foreach ($attributes as $attribute) {
 								if ($attribute['attribute_id'] == $attribute_id) {
-									$full_description = $attribute['product_attribute_description'];
+									if (isset($attribute['product_attribute_description'][$this->config->get('config_language_id')]))
+									$full_description = $attribute['product_attribute_description'][$this->config->get('config_language_id')]['text']; 
 									break;
 								}
 							}
@@ -79,7 +79,7 @@
 								'model' 		=> $result['model'],
 								'image' 		=> $this->model_tool_image->resize($result['image'], 150, 150),
 								'short_desc' 	=> $result['description'],  // this is short description. full description is in "Description“ attribute. Our design.
-								'description' 	=> $full_description
+								'description' 	=> html_entity_decode($full_description, ENT_QUOTES, 'UTF-8')
 							);
 						}
 					}
@@ -92,7 +92,10 @@
 					);
 				}
 				
-				$this->load->view('catalog/pricelist_catalogue', $data); // pass data to view and generate the HTML format catalogue.
+				$html_out = $this->load->view('catalog/pricelist_catalogue', $data); // pass data to view and generate the HTML format catalogue.
+				$myfile = fopen("catalog.htm", "w") or die("Unable to open file!");
+				fwrite($myfile, $html_out);
+				fclose($myfile);
 			}
 			
 			$this->getList();
@@ -111,7 +114,6 @@
 			
 			$sort = 'name';
 			$order = 'ASC';
-			// $page = 1;
 			
 			if (isset($this->request->get['sort'])) {
 				$sort = $this->request->get['sort'];
@@ -120,10 +122,6 @@
 			if (isset($this->request->get['order'])) {
 				$order = $this->request->get['order'];
 			}
-			
-			// if (isset($this->request->get['page'])) {
-			// 	$page = $this->request->get['page'];
-			// }
 			
 			$url = '';
 
@@ -143,10 +141,6 @@
 				$url .= '&order=' . $this->request->get['order'];
 			}
 			
-			// if (isset($this->request->get['page'])) {
-			// 	$url .= '&page=' . $this->request->get['page'];
-			// }
-			
 			$data['breadcrumbs'] = array();
 			
 			$data['breadcrumbs'][] = array(
@@ -159,8 +153,6 @@
 			'href' => $this->url->link('catalog/pricelist', 'token=' . $this->session->data['token'] . $url, true)
 			);
 			
-			// $data['catalogue'] = $this->url->link('catalog/pricelist/catalogue', 'token=' . $this->session->data['token'] . $url, true);
-			// $data['pricelist'] = $this->url->link('catalog/pricelist/pricelist', 'token=' . $this->session->data['token'] . $url, true);
 			$data['generate'] = $this->url->link('catalog/pricelist/generate', 'token=' . $this->session->data['token'] . $url, true);
 
 			if (isset($this->request->get['filter_name'])) {
@@ -185,8 +177,6 @@
 				'parent_id' => 0  // AJ Sep 6: add to search only top-level categories
 			);
 			
-			// $category_total = $this->model_catalog_category->getTotalCategories($filter_data);
-			
 			$results = $this->model_catalog_category->getCategories($filter_data);
 			
 			$label = $this->language->get('text_backend_only'); // This has span encapsulating the text
@@ -198,10 +188,8 @@
 				'short_name'  => $result['short_name'],
 				'sort_order'  => $result['sort_order'],
 				'status'      => $result['status'] ? $this->language->get('text_enabled') : $this->language->get('text_disabled'),
-				'shref' 		  => str_replace(HTTPS_SERVER, HTTPS_CATALOG, $this->url->link('product/special&path=' . $result['category_path'])),
+				'shref' 	  => str_replace(HTTPS_SERVER, HTTPS_CATALOG, $this->url->link('product/special&path=' . $result['category_path'])),
 				'href' 		  => str_replace(HTTPS_SERVER, HTTPS_CATALOG, $this->url->link('product/category&path=' . $result['category_path'])),
-				// 'edit'        => $this->url->link('catalog/category/edit', 'token=' . $this->session->data['token'] . '&category_id=' . $result['category_id'] . $url, true),
-				// 'delete'      => $this->url->link('catalog/category/delete', 'token=' . $this->session->data['token'] . '&category_id=' . $result['category_id'] . $url, true)
 				);
 			}
 			$data['heading_title'] = $this->language->get('heading_title');
@@ -220,14 +208,11 @@
 			$data['column_status'] = $this->language->get('column_status');
 			$data['column_URL'] = $this->language->get('column_URL');
 			
-			// $data['button_add'] = $this->language->get('button_add');
-			// $data['button_edit'] = $this->language->get('button_edit');
 			$data['button_catalogue'] = $this->language->get('button_catalogue');
 			$data['button_pricelist'] = $this->language->get('button_pricelist');
 			$data['button_clear'] = $this->language->get('button_clear');
 			$data['button_filter'] = $this->language->get('button_filter');
 			
-			// $data['error_warning'] = '';
 			$data['success'] = '';
 			$data['selected'] = array();
 
@@ -264,10 +249,7 @@
 			else {
 				$url .= '&order=ASC';
 			}
-			
-			// if (isset($this->request->get['page'])) {
-			// 	$url .= '&page=' . $this->request->get['page'];
-			// }
+
 			
 			$data['sort_name'] = $this->url->link('catalog/category', 'token=' . $this->session->data['token'] . '&sort=name' . $url, true);
 			$data['sort_sort_order'] = $this->url->link('catalog/category', 'token=' . $this->session->data['token'] . '&sort=sort_order' . $url, true);
@@ -291,16 +273,6 @@
 			if (isset($this->request->get['order'])) {
 				$url .= '&order=' . $this->request->get['order'];
 			}
-			
-			// $pagination = new Pagination();
-			// $pagination->total = $category_total;
-			// $pagination->page = $page;
-			// $pagination->limit = $this->config->get('config_limit_admin');
-			// $pagination->url = $this->url->link('catalog/category', 'token=' . $this->session->data['token'] . $url . '&page={page}', true);
-			
-			// $data['pagination'] = $pagination->render();
-			
-			// $data['results'] = sprintf($this->language->get('text_pagination'), ($category_total) ? (($page - 1) * $this->config->get('config_limit_admin')) + 1 : 0, ((($page - 1) * $this->config->get('config_limit_admin')) > ($category_total - $this->config->get('config_limit_admin'))) ? $category_total : ((($page - 1) * $this->config->get('config_limit_admin')) + $this->config->get('config_limit_admin')), $category_total, ceil($category_total / $this->config->get('config_limit_admin')));
 			
 			$data['sort'] = $sort;
 			$data['order'] = $order;

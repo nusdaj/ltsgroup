@@ -1,97 +1,656 @@
-2021-09-10 15:36:24 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-09-10 15:42:11 - PHP Notice:  Undefined variable: text_loading in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\category_list.tpl on line 7
-2021-09-10 15:59:41 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 15:59:41 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 66
-2021-09-10 15:59:41 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 15:59:41 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 15:59:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 15:59:50 - PHP Notice:  Undefined variable: delete in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 66
-2021-09-10 15:59:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 15:59:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 16:57:28 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 16:57:28 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 16:57:28 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:02:05 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:02:05 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 17:02:05 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:22:38 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:22:38 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 17:22:38 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:22:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:22:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 17:22:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:28:31 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:28:31 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 134
-2021-09-10 17:28:31 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:47:16 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:47:16 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:47:16 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:50 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:51 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 17:53:55 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 17:53:55 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 17:53:55 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 18:09:49 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-10 18:09:49 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-10 18:09:49 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-10 23:16:28 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-09-10 23:17:24 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-09-10 23:19:29 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 3
-2021-09-10 23:19:29 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product_description.tpl on line 49
-2021-09-10 23:19:29 - PHP Notice:  Undefined variable: enquiry in C:\xampp\htdocs\ltsgroup\catalog\view\theme\default\template\product\product\product.tpl on line 176
-2021-09-11 9:55:19 - MAILCHIMP_INTEGRATION ERROR: The requested resource could not be found.
-2021-09-11 14:49:51 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 14:49:51 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 14:49:51 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:01:18 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:01:19 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:01:19 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:01:19 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:01:23 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:01:23 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:01:23 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:01:31 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:01:31 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:01:31 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:03:32 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:03:32 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:03:32 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:07:00 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:07:00 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:07:00 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:07:09 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:07:09 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:07:09 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 15:23:19 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 15:23:19 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 15:23:19 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 16:00:48 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 16:00:48 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 16:00:48 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
-2021-09-11 16:05:19 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
-2021-09-11 16:05:19 - PHP Notice:  Undefined variable: pagination in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 135
-2021-09-11 16:05:19 - PHP Notice:  Undefined variable: results in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 136
+2021-09-11 17:30:38 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 17:30:43 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:30:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:30:43 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 17:32:00 - PHP Notice:  Undefined variable: header in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 1
+2021-09-11 17:32:00 - PHP Notice:  Undefined variable: column_left in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 1
+2021-09-11 17:32:00 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 17
+2021-09-11 17:32:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 17
+2021-09-11 17:32:00 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 41
+2021-09-11 17:32:00 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 17:35:04 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 17:36:02 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:36:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:36:02 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:36:02 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:40:02 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 17:40:14 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:40:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:40:14 - PHP Notice:  Undefined index: products in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:40:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 14
+2021-09-11 17:41:12 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 19:35:00 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 24
+2021-09-11 19:35:09 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 21:14:57 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:11 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:12 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:13 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 21:15:14 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 21:27:48 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:11:57 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:04 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:05 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:12:06 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 22:12:42 - PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:12:42 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\controller\catalog\pricelist.php on line 69
+2021-09-11 22:22:33 - PHP Notice:  Undefined variable: discount in C:\xampp\htdocs\ltsgroup\catalog\controller\component\product_info.php on line 169
+2021-09-11 22:26:59 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Undefined variable: produt in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:27:56 - PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist_catalogue.tpl on line 46
+2021-09-11 22:28:00 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 22:30:44 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18
+2021-09-11 22:32:45 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\ltsgroup\lts0128\view\template\catalog\pricelist.tpl on line 18

@@ -32,36 +32,16 @@
 			</div>
 			<div class="panel-body">
         <div class="well">
-          <div class="row">
-            <div class="col-sm-3">
-              <div class="form-group">
-                <label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
-                <input type="text" name="filter_name" value="<?php echo $filter_name; ?>" placeholder="<?php echo $entry_name; ?>" id="input-name" class="form-control" />
-              </div>
-	              <button type="button" id="button-clear" class="btn btn-default pull-right"><i class="fa fa-refresh"></i> <?php echo $button_clear; ?></button>
-	              <button type="button" id="button-filter" class="btn btn-primary pull-right"><i class="fa fa-filter"></i> <?php echo $button_filter; ?></button>
-            </div>
-            <div class="col-sm-3">
-            	<?php /*
-              <div class="form-group">
-                <label class="control-label" for="input-status"><?php echo $entry_status; ?></label>
-                <select name="filter_status" id="input-status" class="form-control">
-                  <option value="*"></option>
-                  <?php if ($filter_status) { ?>
-                  <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
-                  <?php } else { ?>
-                  <option value="1"><?php echo $text_enabled; ?></option>
-                  <?php } ?>
-                  <?php if (!$filter_status && !is_null($filter_status)) { ?>
-                  <option value="0" selected="selected"><?php echo $text_disabled; ?></option>
-                  <?php } else { ?>
-                  <option value="0"><?php echo $text_disabled; ?></option>
-                  <?php } ?>
-                </select>
-              </div>*/ ?>
-            </div>
-            
-          </div>
+			<div class="row">
+				<div class="col-sm-3">
+				<div class="form-group">
+					<label class="control-label" for="input-name"><?php echo $entry_name; ?></label>
+					<input type="text" name="filter_name" value="<?php echo $filter_name; ?>" placeholder="<?php echo $entry_name; ?>" id="input-name" class="form-control" />
+				</div>
+					<button type="button" id="button-clear" class="btn btn-default pull-right"><i class="fa fa-refresh"></i> <?php echo $button_clear; ?></button>
+					<button type="button" id="button-filter" class="btn btn-primary pull-right"><i class="fa fa-filter"></i> <?php echo $button_filter; ?></button>
+				</div>
+			</div>
         </div>
 				<form action="<?php echo $generate; ?>" method="post" enctype="multipart/form-data" id="form-category">
 					<input type=hidden name="booktype" id="booktype" value="" />
@@ -131,10 +111,7 @@
 						</table>
 					</div>
 				</form>
-				<div class="row">
-					<div class="col-sm-6 text-left"><?php echo $pagination; ?></div>
-					<div class="col-sm-6 text-right"><?php echo $results; ?></div>
-				</div>
+
 			</div>
 		</div>
 	</div>
@@ -153,12 +130,6 @@
   	if (filter_name) {
   		url += '&filter_name=' + encodeURIComponent(filter_name);
   	}
-
-  	// var filter_status = $('select[name=\'filter_status\']').val();
-
-  	// if (filter_status != '*') {
-  	// 	url += '&filter_status=' + encodeURIComponent(filter_status);
-  	// }
 
   	location = url;
   });
