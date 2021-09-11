@@ -40,6 +40,7 @@ $_['text_order']                     = 'Orders';
 $_['text_enquiry']                   = 'Enquiries';
 $_['text_enquirenow']                = 'Enquire Now';
 $_['text_order_status']              = 'Order/Enquiry Status';
+$_['text_pricelist']                 = 'Catelogue/Pricelist'; // AJ Spe 6: generate catalogue & pricelist
 $_['text_product']                   = 'Products';
 $_['text_reports']                   = 'Reports';
 $_['text_report_sale']               = 'Sales';

@@ -229,8 +229,14 @@ class ModelCatalogCategory extends Model {
 		}
 	}
 
+	// AJ Sep 6: add in "parent_id". initial purpose is for getting the top-level categories, whose parent_id is 0
 	public function getCategories($data = array()) {
 		$sql = "SELECT cp.category_id AS category_id, cd2.name as short_name, GROUP_CONCAT(cd1.name ORDER BY cp.level SEPARATOR '&nbsp;&nbsp;&gt;&nbsp;&nbsp;') AS name, GROUP_CONCAT(cd1.category_id ORDER BY cp.level SEPARATOR '_') AS category_path, c1.parent_id, c1.sort_order, c1.backend_only, c2.status FROM " . DB_PREFIX . "category_path cp LEFT JOIN " . DB_PREFIX . "category c1 ON (cp.category_id = c1.category_id) LEFT JOIN " . DB_PREFIX . "category c2 ON (cp.path_id = c2.category_id) LEFT JOIN " . DB_PREFIX . "category_description cd1 ON (cp.path_id = cd1.category_id) LEFT JOIN " . DB_PREFIX . "category_description cd2 ON (cp.category_id = cd2.category_id) WHERE cd1.language_id = '" . (int)$this->config->get('config_language_id') . "' AND cd2.language_id = '" . (int)$this->config->get('config_language_id') . "'";
+
+		// AJ Sep 6: get categories under parent_id
+		if (isset($data['parent_id'])) {
+			$sql .= " AND c1.parent_id='" . (int)$data['parent_id'] . "'";
+		}
 
 		if (isset($data['backend_only'])) {
 			$sql .= " AND c1.backend_only='" . (int)$data['backend_only'] . "'";

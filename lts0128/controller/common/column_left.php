@@ -156,6 +156,15 @@
 					'children' => array()
 					);
 				}*/
+
+				/* AJ Sep 6: generate Catalogue & Pricelist */
+				if ($this->user->hasPermission('access', 'catalog/pricelist')) {
+					$catalog[] = array(
+					'name'	   => $this->language->get('text_pricelist'),
+					'href'     => $this->url->link('catalog/pricelist', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+					);
+				}
 				
 				if ($this->user->hasPermission('access', 'catalog/review')) {
 					$catalog[] = array(
